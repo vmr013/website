@@ -64,6 +64,11 @@
   height: 200px;
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+}
+
 .box.active > .back {
   transform: rotateX(0deg);
   top: 0;
