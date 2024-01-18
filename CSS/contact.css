@@ -1,0 +1,39 @@
+.logo-color {
+  color: var(--clr-black);
+  text-decoration: none;
+}
+
+.fa-telegram,
+.fa-linkedin-in,
+.fa-facebook,
+.fa-instagram {
+  letter-spacing: 10px;
+  font-size: 35px;
+  transition: all 0.2s ease-in-out;
+}
+i:hover {
+  transform: scale(1.3);
+}
+
+.fa-github:hover {
+  color: #333;
+}
+
+.fa-facebook:hover {
+  color: #1877f2;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-telegram:hover {
+  color: #1da1f2;
+}
+
+.fa-linkedin-in:hover {
+  color: #0a66c2;
+}
+.contact-logo {
+  justify-content: center;
+}
